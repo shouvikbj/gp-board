@@ -109,7 +109,7 @@ const Home = () => {
           <div className="col s11 main-content">
             <div className="" style={{ paddingTop: "20px" }}>
               <div className="col s9">
-                <div className="left">
+                {/*<div className="left">
                   <div className="input-field">
                     <i className="material-icons prefix">search</i>
                     <input id="search" type="text" disabled />
@@ -117,7 +117,7 @@ const Home = () => {
                   </div>
                 </div>
                 <br />
-                <br />
+                <br />*/}
                 <br />
                 <br />
                 <div className="center">
