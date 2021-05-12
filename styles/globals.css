@@ -4,6 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #2034cc;
+  /* background-color: #060d41; */
+  max-height: 100vh;
+  /* overflow-y: scroll; */
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: "Oxygen", sans-serif;
 }
 
 a {
@@ -13,4 +19,188 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 8s linear infinite;
+  -moz-animation: spin 8s linear infinite;
+  animation: spin 8s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  /* border-right: 1px solid black; */
+  max-height: 100vh;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar,
+.menu::-webkit-scrollbar,
+.email::-webkit-scrollbar,
+.main-content::-webkit-scrollbar,
+.notification-card::-webkit-scrollbar,
+#displayName::-webkit-scrollbar,
+#displayEmail::-webkit-scrollbar,
+#todo-div::-webkit-scrollbar,
+#onGoing-div::-webkit-scrollbar,
+#testing-div::-webkit-scrollbar,
+#deployed-div::-webkit-scrollbar,
+.addedBy::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html,
+.menu,
+.email,
+.main-content,
+.notification-card,
+#displayName,
+#displayEmail,
+#todo-div,
+#onGoing-div,
+#testing-div,
+#deployed-div,
+.addedBy {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.menu-card {
+  /* background-image: linear-gradient(to bottom right, #2034cc, #6f00edbb); */
+  /* font-weight: bold; */
+  font-size: larger;
+  border-radius: 20px;
+  /* max-width: 15rem; */
+}
+
+/* .project-list {
+  padding-left: 50px;
+} */
+
+.project-cards {
+  margin: 0 auto;
+}
+
+.main-content {
+  height: 100vh;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 0px 30px -5px black;
+  background-color: rgb(231, 231, 231);
+  /* margin-top: 20px; */
+  overflow-y: scroll;
+}
+
+.right-part {
+  background-color: white;
+  box-shadow: -2px -2px 15px -2px slategray;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom: 4px solid indigo;
+}
+
+/* #profile_image {
+  border: 4px solid orange;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+} */
+
+/* #signin-btn {
+  background-image: linear-gradient(to bottom right, white, whitesmoke, white);
+} */
+
+.signin-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#logout {
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 74, 74),
+    rgb(128, 0, 0)
+  );
+}
+
+.notification-card {
+  max-height: 18rem;
+  overflow-y: scroll;
+}
+
+#todo-div {
+  background-color: white;
+  height: 90vh;
+  border-radius: 30px;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 10px -2px slategray;
+  border-right: 1px solid slategray;
+}
+
+#onGoing-div {
+  background-color: white;
+  height: 90vh;
+  border-radius: 30px;
+  overflow-y: scroll;
+  box-shadow: 4px 4px 8px -4px slategray;
+  border-right: 1px solid slategray;
+}
+
+#testing-div {
+  background-color: white;
+  height: 90vh;
+  border-radius: 30px;
+  overflow-y: scroll;
+  box-shadow: 4px 4px 8px -4px slategray;
+  border-right: 1px solid slategray;
+}
+
+#deployed-div {
+  background-color: white;
+  height: 90vh;
+  border-radius: 30px;
+  overflow-y: scroll;
+  box-shadow: 4px 4px 8px -4px slategray;
+}
+
+.column-heading {
+  box-shadow: 0px 0px 20px -8px slategray;
+  padding: 1px 0px;
+  border-radius: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* background-color: #3944f7;
+  color: white; */
+}
+
+.card {
+  border-radius: 20px;
 }
