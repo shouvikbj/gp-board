@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "GP",
-  "short_name": "GP",
+  "name": "GP Project Board",
+  "short_name": "GP Project Board",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
