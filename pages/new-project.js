@@ -68,7 +68,7 @@ const Newproject = () => {
   return (
     <>
       <Head>
-        <title>GP Project Board | New Project</title>
+        <title>Create New Project | GP Project Board</title>
       </Head>
       <div className="container-fluid">
         <div className="row">

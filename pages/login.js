@@ -107,7 +107,7 @@ const Login = () => {
   return (
     <>
       <Head>
-        <title>GP Project Board | Login</title>
+        <title>Login | GP Project Board</title>
       </Head>
       <div className="signin-div conatiner">
         <h5 className="center white-text">GP Project Board</h5>

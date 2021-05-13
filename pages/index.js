@@ -99,7 +99,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>GP Project Board | Dashboard</title>
+        <title>Dashboard | GP Project Board</title>
       </Head>
       <div className="container-fluid">
         <div className="row">
