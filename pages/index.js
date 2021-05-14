@@ -9,6 +9,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const API = "https://gpboard.pythonanywhere.com/api";
+// const API = "http://127.0.0.1:5000/api";
 
 const Home = () => {
   const colors = ["red", "green", "blue", "orange", "deeppink"];

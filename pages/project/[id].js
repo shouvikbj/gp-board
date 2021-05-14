@@ -11,6 +11,7 @@ import Testingcard from "../../components/Testingcard";
 import Deployedcard from "../../components/Deployedcard";
 
 const API = "https://gpboard.pythonanywhere.com/api";
+// const API = "http://127.0.0.1:5000/api";
 
 const Details = () => {
   const router = useRouter();
